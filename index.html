@@ -58,10 +58,29 @@
         .owl-next:hover {
             background-color: rgba(0, 0, 0, 0.8);
         }
+        .image-logo{
+            height:45px; 
+            width:45px;
+        }
+        .text-primary{
+            padding-left:3px;
+            position: relative;
+            top:4px;
+        }
         @media screen and (max-width:500px){
             .my-custom-class{
             position: relative;
-             right:0%;
+             left: 1%;
+        }
+            .image-logo{
+                height:30px; 
+                width:30px;
+            }
+            .text-primary{
+            position: relative;
+            top:3px;
+            right:2px;
+            font-size:21px;
         }
         }
        
@@ -82,8 +101,8 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="img/oit-logo.png" style="height:45px; width:45px;" alt="">
-            <h2 class="m-0 text-primary" style="padding-left:3px; position: relative; top:4px;">Omega Academy</h2>
+            <img class="image-logo" src="img/oit-logo.png"  alt="">
+            <h2 class="m-0 text-primary">Omega Academy</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -494,8 +513,8 @@
                 <!-- Left Side -->
                 <div class="col-lg-3 col-md-6 order-md-first my-custom-class" style="position: relative; right: 5%;">
                     <a href="index.html" class="navbar-brand d-flex align-items-center">
-                        <img src="img/oit-logo.png" style="height:45px; width:45px;"alt="">
-                        <h2 class="m-0 text-primary" style="padding-left:3px; position: relative; top:4px;">Omega Academy</h2>
+                        <img class="image-logo" src="img/oit-logo.png" alt="">
+                        <h2 class="m-0 text-primary">Omega Academy</h2>
                     </a>
                     <p style="margin-top: 10px;">Gateway to acquire valuable skills and knowledge, empowering them to thrive in a dynamic digital landscape and advance their careers.</p>                       
                 </div>                  
